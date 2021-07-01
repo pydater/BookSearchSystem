@@ -10,4 +10,6 @@ public interface BookDao {
     public List<Book> fuzzyQueryByName(String name);
     public Long fuzzyQueryByAuthorCount(String author);
     public Long fuzzyQueryByNameCount(String name);
+//    public List<Book> PageQueryByName(String name);
+//    public List<Book> PageQueryByAuthor(String author);
 }
